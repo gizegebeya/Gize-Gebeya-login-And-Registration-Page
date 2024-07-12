@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Employee Website - Login and Registration</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      background-color: #333;
+      color: #fff;
+      padding: 10px;
+    }
+.logo img {
+      height: auto;
+      max-width: 10%;
+      border-radius: 50%;
+      margin-right: 60%;
+}
+    nav ul {
+      margin: 0;
+      padding: 0;
+      list-style: none;
+    }
+
+    nav ul li {
+      display: inline;
+      margin-right: 10px;
+    }
+
+    nav ul li a {
+      color: #fff;
+      text-decoration: none;
+    }
+
+    main {
+      padding: 20px;
+    }
+
+    .login-form {
+      max-width: 400px;
+      margin: 0 auto;
+      padding: 20px;
+      background-color: #f2f2f2;
+    }
+
+    .login-form h1 {
+      font-size: 24px;
+      margin-bottom: 20px;
+    }
+
+    .login-form label {
+      display: block;
+      margin-bottom: 10px;
+    }
+
+    .login-form input[type="email"],
+    .login-form input[type="password"] {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 20px;
+    }
+
+    .button-group {
+      display: flex;
+      justify-content: space-between;
+    }
+
+    .login-form input[type="submit"],
+    .login-form input[type="button"] {
+      padding: 10px 20px;
+      background-color: #333;
+      color: #fff;
+      border: none;
+      cursor: pointer;
+    }
+
+    footer {
+      background-color: #333;
+      color: #fff;
+      padding: 10px;
+      text-align: center;
+    }
+  </style>
+  <link rel="icon" type="image/png" href="favicon.jpeg">
+</head>
+<body>
+  <header>
+      <div class="logo">
+          <img src="Logo.png" alt="Gize Gebeya logo">
+      </div>
+    <nav>
+      <ul>
+<li><a href="index.html">Home</a></li>
+        <!--<li><a href="#">Login and Registration</a></li>-->
+        <li><a href="E Dashboard.html">Dashboard</a></li>
+        <li><a href="E Profile Page.html">Employee Profile Page</a></li>
+        <li><a href="E Directory.html">Employee Directory</a></li>
+        <!--<li><a href="#">Document Repository</a></li>-->
+        <li><a href="E News and Updates.html">News and Updates</a></li>
+        <li><a href="E Department Pages.html">Department Pages</a></li>
+        <li><a href="E FAQs and Help Center.html">FAQs and Help Center</a></li>
+        <li><a href="E Contact Page.html">Contact Page</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="login-form">
+      <h1>Login and Registration</h1>
+
+      <form>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required>
+
+        <div class="button-group">
+          <input type="submit" value="Login">
+          <input type="button" value="Register">
+        </div>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2023 Employee Website. All rights reserved.</p>
+  </footer>
+</body>
+</html>
